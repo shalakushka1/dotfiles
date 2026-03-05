@@ -1,0 +1,19 @@
+/* Alvo principal: Janelas dos aplicativos */
+window, 
+.background, 
+.main-window {
+    border-radius: 8px; /* Ajuste o valor conforme preferir. 0px deixa totalmente quadrado. */
+}
+
+/* Alvo secundário: Menus, popovers e caixas de diálogo */
+messagedialog,
+.popover,
+.menu,
+.context-menu {
+    border-radius: 8px;
+}
+
+/* Opcional: Ajustar botões para combinar com a nova curvatura */
+button {
+    border-radius: 8px;
+}
